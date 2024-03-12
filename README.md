@@ -1,2 +1,1 @@
-How to get done smth
-ddddd
+## How to get done smth
