@@ -1,2 +1,2 @@
-# test
-How to get done 
+How to get done smth
+ddddd
