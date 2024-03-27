@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <title>livescore</title>
+    <style>
+        p {
+            color:black;
+            size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> <!-- en boyuk metn -->
+        salam
+    </h1>
+    <h6> <!-- en kicik metn -->
+        salam
+    </h6>
+    <br> <!-- bir setir bosluq qoyur -->
+    <hr> <!-- metnleri ayirmaq ucun duz xett; basliq adini metnden ayirmaq ucun duz xett-->
+    <!-- h1-h6 olur -->
+    <p>
+       <abbr title="Azerbaycan Beynelxaq Banki">ABB</abbr>`nin tam kart`i <!-- abbr abriviaturadir -->
+    </p>
+  <address><!-- evvelki yazidan evvel bir setr bosluq qoyulur-->
+    Elaqelerimiz:
+    <a href="mailto:orxanp03@gmail.com">email</a>
+  </address> <!-- bura elaqe nomresi, unvan falan yazmaq olar butun yazilar kursiv kimi gorsenecek-->
+  <p><b>bold text</b></p> <!-- bold -->
+
+<ul><li>User <bdi>hrefs</bdi>: 60 points</li><!-- bdi tag`i ferqli istiqametde gede bilecek simvollari(ereb) izolyasiya ederek siralamani qoruyur -->
+    <li>User <bdi>jdoe</bdi>: 80 points</li><!-- li yazilarin list oldugunu mueyyen edir -->
+    <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul> <!-- ul sirasi olmayan list -->
+<ol><li>User <bdi>hrefs</bdi>: 60 points</li><!-- bdi tag`i ferqli istiqametde gede bilecek simvollari(ereb) izolyasiya ederek siralamani qoruyur -->
+    <li>User <bdi>jdoe</bdi>: 80 points</li><!-- li yazilarin list oldugunu mueyyen edir -->
+    <li>User <bdi>إيان</bdi>: 90 points</li>
+</ol> <!-- ol sirasi olan list --> 
+
+    <li>User <bdo dir="rtl">salam</bdo>: 90 points</li> <!-- malas:90 points niye olmadi?-->
+    <li>User <bdo dir="ltr">salam</bdo>: 90 points</li> <!-- bdo metnin istiqametini teyin edir-->
+    <!-- bdo dir="rtl" -> metni sagdan sola oxuyacaq; bdo dir="ltr" -> metni soldan saga oxuyacaq-->
+
+   <blockquote cite="https://www.aztu.edu.az/az"><q>aztuda bufet acildi</q></blockquote> <!-- her hansi bir saytdan sozu metni sitat kimi gosterir -->
+   <!-- abzasin qoyulmamasi; kicik cumleler ucun q`dan istifade olunur-->
+
+   <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpitchfork.com%2Freviews%2Falbums%2Fdrake-for-all-the-dogs%2F&psig=AOvVaw1xAUIpKfe36QDrHNPSPOdk&ust=1711622461550000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCYktmglIUDFQAAAAAdAAAAABAE">
+   <p><cite>for all the dogs</cite> by Drake</p> <!-- <cite></cite> her hansi bir isin adini qeyd elemek ucundur; cite`a yazdigimiz metn kursive cevrilecek-->
+   
+   <p><code>komputer kodu </code></p> <!-- code`a yazdigimiz metni komputer kodu kimi mueyyen edir; sadece metnin fontu monospace olur-->
+   <p>Sevdiyim yemek <del>dolmadir</del> <ins>dovgadir</ins></p> <!-- del silinmis metni ustunden xett cekerek mueyyen edir; ins ise yeni elave edilmis metni altdan xett ile mueyyen edir-->
+   
+   <p><dfn>AzTU</dfn>`nun 6 korpusu var</p>
+   <p><dfn title="Azerbaycan Texniki Universiteti">AzTU</dfn>`nun 6 korpusu var</p>
+   <p><dfn><abbr title="Azerbaycan Texniki Universiteti">AzTU</abbr></dfn>`nun 6 korpusu var</p>
+
+   <p>Salam adim <em>Orxandir</em></p> <!-- em sadece qeyd elediyimiz metni vurgulayir, yeni kursive(italice) cevirir -->
+   <p><i>persona non qrata</i> yunan sozudur</p> <!-- kursiv(italic) -->
+   
+   <p>Press <kbd>Ctrl + V</kbd>, <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste copied text</p> <!-- klaviaturadan daxil edilmis kombinasiyani,metni mueyyen edir, burada sadece font`u monospace olur-->
+   <p><mark>Baki</mark> Azerbaycanin paytaxtidir</p> <!-- mark yazdigimizi highlight edir-->
+   <p>BAL</p>
+   <meter id="bal_aztu" value="0.5">11 baldan 7 bal aldin</meter>
+</body>
+</html>
