@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="register.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="login">
+        <div class="gender">
+           <label class="male"><input class="male" name="question" id="male" type="radio"><p class="male">male</p></label> 
+           <label class="female"> <input class="female" name="question" type="radio"><p class="female">female</p></label>
+        </div>
+
+        <p class="login-text-top">Sign up</p>
+  <!--<div class="gender"><select class="select-gender">
+    <option class="male">Male</option>
+    <option class="female">Female</option>
+    <option class="optional">Non-binary</option> </select></div> -->      
+
+       
+        <label class="email_box"><input class="email" type="email" placeholder="Email"></label>
+        <label class="createpass_box"><input class="createpass" type="password"
+                placeholder="Create password" minlength="6" maxlength="20"></label><!-- hide.png elave et hide button, maxlength minlength-->
+        <label class="confirmpass_box"><input class="confirmpass" type="password"
+                    placeholder="Confirm password" minlength="6" maxlength="20"></label>
+
+        <div class="login_btn"><button type="button" class="submit_login">
+                <p class="login-button-text">Sign up</p>
+            </button></div> 
+            <div class="signup-space">
+                  <p class="signup-text"> Already have an account? <a id="signup-text-link" class="singup-text-link" href="login.html">Log in</a></p> <!-- sign up`i arali ele, singup`in cssi islemir?-->
+            </div>
+            <div class="end-space">
+                <hr>
+            </div>
+            <div class="or"><p>Or</p></div>
+            <button class="Facebook"><i class="fa-brands fa-facebook"></i><span id="fb-text" class="fb-text">Login with Facebook</span></button>
+            <button class="google"><img src="google.png"><span id="google-text" class="gooogle-text">Login with Google</span></button>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
+

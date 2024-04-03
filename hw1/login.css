@@ -1,0 +1,235 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #85929E;
+    opacity: 90%;
+    width: 100%;
+}
+
+div {
+    box-sizing: border-box;
+
+}
+
+div.login {
+    margin: auto;
+    margin-top: 120px;
+    box-sizing: border-box;
+    height: 520px;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.login-text-top {
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-size: 25px;
+    font-family: "Ubuntu", monospace, sans-serif;
+}
+/* div.gender{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}*/
+div.gender{
+    display: inline;
+}
+div label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div label .email:invalid{
+border-color: rgb(251, 70, 70);
+
+}
+div label .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: #EAEDED;
+    border-style: solid;
+    background: white
+}
+
+div label .pass:focus {
+    border-color: #EAEDED;
+}
+
+div label .pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: #EAEDED;
+    border-style: solid;
+    background: white;
+}
+
+div a.forgot_pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: #3498DB;
+    font-family: "Ubuntu", monospace, sans-serif;
+}
+
+.login_btn {
+    position: relative;
+    top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.login-button-text {
+    font-family: "Ubuntu", monospace, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin: auto;
+}
+
+.submit_login {
+    border-radius: 5px;
+    height: 40px;
+    width: 316px;
+    border-color: #EAEDED;
+    border-style: solid;
+    background-color: #3498DB;
+}
+
+.submit_login:hover {
+    cursor: pointer;
+}
+
+
+
+.signup-space {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.signup-text {
+    font-family: "Ubuntu", monospace, sans-serif;
+}
+
+#signup-text-link {
+    font-family: "Ubuntu", monospace, sans-serif;
+    color: #3498DB;
+    text-decoration: none;
+
+}
+
+div.end-space hr {
+    border-color: black 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 95px;
+    width: 330px;
+}
+
+.or {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 65px;
+
+}
+
+.or p {
+    margin: 0;
+    color: black;
+    opacity: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 11px;
+}
+
+button {
+    display: inline-block;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button.Facebook {
+    position: relative;
+    left: 42px;
+    top: 80px;
+    width: 316px;
+    height: 40px;
+    background-color: white;
+    border-color: #EAEDED;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+button .fa-brands.fa-facebook {
+    font-size: 25px;
+    color: #1877F2;
+    position: relative;
+    right: 65px;
+}
+
+button span.fb-text {
+    color: #1877F2;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+    font-family: "Ubuntu",monospace, sans-serif;
+}
+
+button.google {
+    position: relative;
+    left: 42px;
+    top: 95px;
+    width: 316px;
+    height: 40px;
+    background-color: white;
+    border-color: #EAEDED;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+button img{
+    position: relative;
+    right: 73px;
+    top: 2px;
+    height: 25px;
+}
+
+#google-text {
+    color: #1877F2;
+    position: relative;
+    bottom: 6px;
+    right: 5px;
+    font-family: "Ubuntu", monospace, sans-serif;
+}
