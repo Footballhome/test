@@ -61,7 +61,70 @@
    
    <p>Press <kbd>Ctrl + V</kbd>, <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste copied text</p> <!-- klaviaturadan daxil edilmis kombinasiyani,metni mueyyen edir, burada sadece font`u monospace olur-->
    <p><mark>Baki</mark> Azerbaycanin paytaxtidir</p> <!-- mark yazdigimizi highlight edir-->
+
    <p>BAL</p>
-   <meter id="bal_aztu" value="0.5">11 baldan 7 bal aldin</meter>
+   <meter id="bal_aztu" value="7" min="0" max="11">11 baldan 7 bal aldin</meter> <!-- meter scale`dir(şkaladir) value qiymetdir max maksimum qiymet, min minimum  qiymetdir -->
+   <!-- eger min ve max olmasa yalniz value olsa, o zaman max`i 1 min`i 0 kimi goturecek--> <br>
+   <progress id="yukleme_progresi" value="15" max="100"> <!-- her hansi bir taskin, yuklenmenin progresini gosterir-->
+   <!-- progress tagi her hansi bir faylin olcusunu gostermek ucun uygun deyil, meter ise uygundur-->
+    </progress>
+
+    <p>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks
+    </p>
+    <pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks   
+    </pre> <!-- pre tagi butun bosluqlari, yeni abzasdan yazilan sozleri eyni yazdigimiz kimi saxlayir, yeni htmlde yazdigimiz kimi gorsenecek -->
+<form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"/><br><br> 
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"/><br><br>
+    <input type="radio" value="radio"/> <br> 
+    <!-- form input`a yazdiqlarimizi databazaya gonderir(?), user`in input`a daxil etdiyini elde etmek ucundur(?)-->
+    <!-- input tagi user`den data isteyir; muxtelif type`lari var -->
+    <!-- label ile user`lere neyi daxil edeceklerini qeyd etmek olar; for ise id ucun yazilir-->
+<input type="range" min="0" max="30"> <br> <br>
+<input type="search"> <br> <br>
+<!-- +994-51-311-04-78 -->
+<input 
+type="tel"
+pattern="+[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+/>
+<button type="reset">reset</button>
+<button type="submit">submit</button>
+</form>
+
+<!-- inputun type`lari
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio"> multiple choice 
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week"> -->
 </body>
 </html>
