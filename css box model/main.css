@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    border: 6px #5D6D7E;
+    border-style: solid;
+    height: 200px;
+    background-color: #5D6D7E;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    overflow: auto;
+    right: 50px;
+    box-shadow: 5px 5px 80px gray;
+} /* border-style`i qeyd elemesen border gorsenmeyecek */
+.box_1 .box_2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    color: antiquewhite;
+} /* .class1 .class2 -> class2 class1`in neslindendir, .box_1 .box_2 yazdiqda box_1 neslinde olan butun box_2 deyisecek  */
+.box_2.box_3{
+    background-color: blueviolet;
+} /* ??? */
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: #5D6D7E;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5px;
+    height: 80px;
+}
+input:checked{
+    height: 40px;
+    width: 40px;
+    box-shadow: none;
+}
+input:focus:hover{
+    box-shadow: 0 0 3px 3px red;
+}
+input:focus:checked:hover{
+    box-shadow: none;
+}
+
+/* suallar 
+.class1.class2{
+}
+ background-clip
+
+*/

@@ -1,0 +1,68 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+div.header{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+div.header p{
+    margin: 0;
+}
+div.nav-bar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+div.nav-bar a{
+    color: white;
+}
+div.nav-bar button{
+    background-color: black;
+    border-style: solid;
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+    padding: 0;
+    border-width: 0;
+}
+div.nav-bar button:hover{
+    cursor: pointer;
+}
+div.nav-bar button.contact-but{
+    position: absolute;
+    left: 20%;
+}
+div.nav-bar button.about-but{
+    position: absolute;
+    left: 10%;
+}
+button.go-back .fa-solid.fa-arrow-up.custom{
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 7.5px);
+    top: calc(50% - 10px);
+}
+button.go-back{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: sticky;
+    left: 95%;
+    top: 90% ;
+    border-color:white;
+    border-style: solid;
+}
+button.go-back:hover{
+    cursor: pointer;
+}
+div #go-back-link{
+   text-align: center;
+}

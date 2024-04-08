@@ -1,0 +1,37 @@
+body, html{
+padding: 0;
+margin: 0;
+background-color: #202124;
+}
+div.google-search{
+    position: absolute;
+    left: calc(50% - 420px);
+    top: calc(50% - 210px);
+    width: 840px;
+    height: 255px;
+}
+div.google-search img{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - 140px);
+    top: calc(50% - 80px);
+}
+div.google-search input{
+    width: 600px;
+    height: 45px;
+    border-width: 1px;
+    background-color: #202124;
+    border-color: #575B5F;
+    border-radius:100px;
+    border-style: solid;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% + 50px);
+}
+div.google-search .fa-solid.fa-magnifying-glass.custom{
+    font-size: 20px;
+    color: #9AA1A7;
+    position: absolute;
+    left: 50%;
+}

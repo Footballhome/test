@@ -46,6 +46,13 @@ div label .email:invalid{
 border-color: rgb(251, 70, 70);
 
 }
+div label .email:required{
+ 
+}
+div label .pass:invalid{
+    border-color: rgb(251, 70, 70);
+}
+
 div label .email {
     display: flex;
     align-items: center;
@@ -233,3 +240,4 @@ button img{
     right: 5px;
     font-family: "Ubuntu", monospace, sans-serif;
 }
+

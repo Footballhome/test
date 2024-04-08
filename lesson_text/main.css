@@ -1,0 +1,97 @@
+.body, .html{
+
+}
+.roboto-100{
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-200{
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-300{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-400{
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-500{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-600{
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-700{
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-800{
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.roboto-900{
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+h1:first-child{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+h1:nth-child(2){
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+h1:nth-child(3){
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+h1:nth-child(4){
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+h1:nth-child(5){
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+h1:nth-child(6){
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+h1:nth-child(7){
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+h1:nth-child(8){
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+h1:nth-child(9){
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+.ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ul li .fa-instagram{
+    font-size: 40px;
+    display: inline-block;
+    background: linear-gradient(45deg, blue,red); /*45deg(360 uzerinden) 0.25turn(1 uzerinden) */
+     background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}

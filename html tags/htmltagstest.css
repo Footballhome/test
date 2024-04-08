@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-size: 50px;
+}
+div.ferrari{
+   
+    background-image: url(ferrari.jpeg);
+    height: 10px; /* height`i qoymasan sekil gorsenmeyecek  */
+    background-repeat:no-repeat; /* seklin yalniz height`ni verdik de sekilin olcusunden asili olmayaraq onun tekrar nusxeleri gorsenecek  
+    bele halin bas vermemesi ucun no-repeat`den istifade olunur.
+    repeat-x yazsaq, sekil x oxu uzre, repeat-y yazsaq ise y oxu uzre tekrarlanacaq 
+    */
+    background-position: center;
+  /*  background-size: auto; /* sekil oz olcusunde olacaq */
+   /* background-size:299px, 168px; /* width - birinci, height - ikinci qiymetdir */
+  /*  background-size: 100% ; /* sekli valideyn elementin(div`in) olcusune uygun faize gore seklin olcusunu deyisecek */
+   /* background-size: cover; /* sekli butun container`e(div`e) yerlesdirir, bu zaman sekil uzana; kesile biler */
+   /* background-size: contain; /* sekli container`e(div`e) gore uygunlasdirir */
+   /* background-size: initial; /* sekle orijinal olculerini qoyur */
+   /* background-size: inherit;/* ne is gorur? */
+  
+}  
+.bos{
+    background-color: aliceblue;
+    height: 400px;
+}
+/*.bos.boys{
+    height: 400px;
+    background-color: black;
+} */
+.bos .boys{
+    height: 50px;
+    background-color: brown;
+   
+} /* niye bos div`i itir?*/
+.bos, .ferrari{
+    height: 50px;
+} /* class`in ikisini de deyisir, amma eger ferrari ve ya bos class`inin onunde div ve s kimi ustun specifity olan taglar varsa, o zaman hec ne deyismeyecek,
+ yalniz ustun specifity olan tag`da deyisiklik elesek nese deyisecek 
+ yuxarida div.ferrari`nin specifity`s 0,1,1 ; amma .ferrari`nin 0,1,0`dir
+ */
+.bos > .boys{
+    background-color: beige;
+} /* valideyni bos olan butun boys class`larini deyisdirecek */
+.bos + .boys{
+    background-position: bottom;
+} /* bos class`dan sonra gelen ilk boys classini deyisdirecek */
+.bos ~ .boys{
+    background-image: url(ferrari.jpeg);
+    background-size: contain;
+} /* bos class`dan sonra gelen butun boys class`larini deyisdirecek */
+a[target]{
+    color: chartreuse;
+}
+a[target="_parent"]{
+    color: crimson;
+} /* xususi bir target`i deyisdirmek ucun*/
+ /* qalan atributlara bax https://www.w3schools.com/cssref/css_selectors.php */
+
+
+/*  color:rgb(255,255,255)
+class - .class{
+
+}
+.blue.cube iki classlar varsa isleyecek ?????
+.blue.cube{
+
+}
+.blue, .cube ortaq deyisir(ikisini de)
+.blue, .cube{
+
+}
+.blue .cube blue`nun icindeki cube`u deyisirik
+.blue .cube{
+
+}
+*{
+
+} hamisini deyisdirir
+id - #id{
+
+}
+selektorlarda atributlara bax
+*/
+
+/* rgba */

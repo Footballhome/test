@@ -1,0 +1,148 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color:burlywood;
+}
+div.mainpage-border{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    border-radius: 25px;
+}
+div.mainpage{
+    height: 480px;
+    width: 480px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(50% - 240px);
+    top: calc(50% - 240px);
+}
+div.mainpage .navbar{
+    width: 480px;
+    height: 60px;
+    background-color: #EAEDED;
+    border-radius: 20px 20px 0 0 ;
+}
+div.mainpage .mainpage-content{
+    width: 480px;
+    height: 420px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+
+}
+div.mainpage-content .reds{
+    height: 105px ;
+    width: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.red1{
+    background-color: tomato;
+    width: 300px;
+    height: 80px;
+}
+div.red2{
+    background-color: tomato;
+    width: 140px;
+    height: 80px;
+}
+div.mainpage-content .blues{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: -5px;
+}
+div.blue1{
+    background-color: lightskyblue;
+    width: 100px;
+    height: 70px;
+}
+div.blue2{
+    background-color: lightskyblue;
+    width: 230px;
+    height: 70px;
+
+}
+div.blue3{
+    background-color: lightskyblue;
+    width: 100px;
+    height: 70px;
+}
+div.mainpage-content .center{
+    height: 220px;
+    width: 480px;
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    gap: 10px 10px;
+}
+div.yellow{
+    background-color: orange;
+    width: 245px;
+    height:222px;
+    
+}
+div.purple1{
+    background-color:blueviolet;
+    width: 200px;
+    height: 105px;
+    display: flex;
+    align-self: flex-start;
+    
+}
+div.purple2{
+    background-color:blueviolet;
+    width: 200px;
+    height: 105px;
+    align-self: flex-start;
+}
+div.navbar{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px; 
+
+}
+
+button.close:hover{
+    cursor: pointer;
+}
+button{
+    border-style: none;
+    position: relative;
+    left: 20px;
+}
+button.close{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF605C;
+}
+button.minimize{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#FFBD44;
+}
+button.maximize{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00CA4E;
+}
