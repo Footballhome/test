@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      div {
+        animation: wiggle 1s ease-in infinite;
+      }
+      @keyframes wiggle {
+      }
+    </style>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              notwiggle: "wiggle 1s ease-in infinite",
+            },
+            keyframes: {
+              wiggle: {
+                "0%, 100%": { transform: "rotate(3deg)" },
+                "50%": { transform: "rotate(-3deg)" },
+              },
+            },
+            colors: {
+              mercedes: "#FFC0CB",
+              polestar: "#e3e3e3",
+              bmw: "rgb(255, 0, 0)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="h-screen w-screen items-center justify-center flex gap-4 flex-col md:flex-row">
+    <div
+      class="h-32 w-32 md:h-56 md:w-56 lg:h-72 lg:w-72  bg-blue-400 rounded-3xl animate-notwiggle"
+    ></div>
+    <div
+      class="h-32 w-32 md:h-56 md:w-56 bg-red-400 lg:h-72 lg:w-72 rounded-3xl animate-notwiggle"
+    ></div>
+  </body>
+</html>

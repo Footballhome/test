@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme:{
+                extend:{
+                    animation:{
+                        box:"box 10s ease-in infinite",
+                        bluebox:"box spin 10s ease in infinite"
+                    },
+                    keyframes:{
+                        bluebox:{
+                            "0%, 100%":{background:"blue"},
+                            "50%":{background:"red"} <!-- firlanan zaman rengi goyden qirmiziya kecsin? -->
+                        },
+                        box:{
+                            "0%, 100%":{transform:"rotate(-405deg)"},
+                            "50%":{transform:"rotate(405deg)"}
+                        },
+                    },
+                },                
+            },
+        };
+    </script>
+</head>
+<body>
+    <div class="w-full h-screen bg-black flex justify-center items-center ">
+        <div class="w-[400px] h-[200px] bg-white flex flex-row gap-3 rounded-[16px] animate-box rotate-[-45deg] p-[8px] box-content">
+            <div class="bg-blue-600 w-[200px] h-[200px] p-[16px] rounded-l-[16px] flex justify-center flex-wrap content-center  gap-[16px] p-[36px] overflow-hidden animate-bluebox">
+                <div class="bg-blue-600 w-[150px] h-[150px] flex justify-between animate-spin">
+                    <div class="bg-white w-[70px] h-[70px] rounded-[50%] flex self-start"></div>
+                    <div class="bg-white w-[70px] h-[70px] rounded-[50%] flex self-end"></div>
+                </div>
+
+            
+            </div>
+        <div class="bg-red-600 w-[200px] h-[200px] p-[16px] rounded-r-[16px] flex justify-center flex-wrap content-center overflow-hidden"> 
+            <div class="bg-red-600 w-[150px] h-[150px] flex justify-center flex-wrap content-center animate-bounce">
+                <div class="bg-white w-[70px] h-[70px] rounded-[50%]"></div>                
+            </div>   
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
